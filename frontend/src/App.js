@@ -13,7 +13,6 @@ const App = () => {
       <Header></Header>
       <main className="py-3">
         <Container>
-          <h1>Welcome to ProShop</h1>
           <Route path="/" component={HomeScreen} exact />
           <Route path="/product/:id" component={ProductScreen} />
           <Route path="/cart/:id?" component={CartScreen} />
