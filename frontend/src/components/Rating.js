@@ -12,7 +12,7 @@ const Rating = ({ value, text, color }) => {
               ? "fas fa-star"
               : value >= 0.5
               ? "fas fa-star-half-alt"
-              : "ffar fa-star"
+              : "far fa-star"
           }
         ></i>
       </span>
@@ -24,7 +24,7 @@ const Rating = ({ value, text, color }) => {
               ? "fas fa-star"
               : value >= 1.5
               ? "fas fa-star-half-alt"
-              : "ffar fa-star"
+              : "far fa-star"
           }
         ></i>
       </span>
@@ -36,7 +36,7 @@ const Rating = ({ value, text, color }) => {
               ? "fas fa-star"
               : value >= 2.5
               ? "fas fa-star-half-alt"
-              : "ffar fa-star"
+              : "far fa-star"
           }
         ></i>
       </span>
@@ -48,7 +48,7 @@ const Rating = ({ value, text, color }) => {
               ? "fas fa-star"
               : value >= 3.5
               ? "fas fa-star-half-alt"
-              : "ffar fa-star"
+              : "far fa-star"
           }
         ></i>
       </span>
@@ -60,7 +60,7 @@ const Rating = ({ value, text, color }) => {
               ? "fas fa-star"
               : value >= 4.5
               ? "fas fa-star-half-alt"
-              : "ffar fa-star"
+              : "far fa-star"
           }
         ></i>
       </span>
@@ -74,7 +74,7 @@ Rating.defaultProps = {
 };
 
 Rating.propTypes = {
-  value: PropTypes.number.isRequired,
+  value: PropTypes.number,
   text: PropTypes.string.isRequired,
   color: PropTypes.string,
 };
