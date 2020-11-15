@@ -18,6 +18,8 @@ import {
   USER_LIST_FAIL,
   USER_LIST_RESET,
   USER_DELETE_SUCCESS,
+  USER_DELETE_REQUEST,
+  USER_DELETE_FAIL,
 } from "../constants/userConstants";
 
 export const userLoginReducer = (state = {}, action) => {
