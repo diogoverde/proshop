@@ -101,7 +101,7 @@ const getMyOrders = asyncHandler(async (req, res) => {
  * @access      Private
  */
 const getOrders = asyncHandler(async (req, res) => {
-  const orders = await Order.find({});
+  const orders = await Order.find({}).populate("user", "id name");
   res.json(orders);
 });
 
