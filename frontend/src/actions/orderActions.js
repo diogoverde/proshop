@@ -194,7 +194,7 @@ export const listOrders = () => async (dispatch, getState) => {
   }
 };
 
-export const deliverOrder = (orderId) => async (dispatch, getState) => {
+export const deliverOrder = (order) => async (dispatch, getState) => {
   try {
     dispatch({
       type: ORDER_DELIVER_REQUEST,
